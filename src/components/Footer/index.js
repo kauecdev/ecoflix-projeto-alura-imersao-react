@@ -1,11 +1,12 @@
 import React from 'react';
 import { FooterBase } from './styles';
+import LogoKC from '../../assets/img/kc_logo.png';
 
 function Footer() {
   return (
     <FooterBase>
       <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Kauê" />
+        <img src={LogoKC} alt="Logo Kauê" />
       </a>
       <p>
         Orgulhosamente criado durante a
