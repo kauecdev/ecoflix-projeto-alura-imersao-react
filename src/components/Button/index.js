@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Button = styled.a`
+const Button = styled.button`
   color: var(--white);
   border: 1px solid var(--white);
   box-sizing: border-box;
@@ -13,6 +13,7 @@ const Button = styled.a`
   border-radius: 5px;
   text-decoration: none;
   display: inline-block;
+  background-color: black;
   transition: opacity .3s;
 
   &:hover,
