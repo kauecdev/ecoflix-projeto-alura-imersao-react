@@ -29,7 +29,9 @@ function Home() {
               <BannerMain
                 videoTitle={dadosIniciais[0].videos[0].titulo}
                 url={dadosIniciais[0].videos[0].url}
-                videoDescription="O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"
+                videoDescription="Um documentário visualmente vislumbrante que explora a diversidade da vida.
+                Um documentário de 90 minutos de Yann Arthus-Bertrand & Michael Pitiot, produzido por Hope Production.
+Um tributo à raça humana, que mostra claramente que ainda somos capazes de mudar o nosso futuro apenas olhando de forma diferente para a vida."
               />
 
               <Carousel
